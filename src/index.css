@@ -9,7 +9,6 @@ body {
   color: white;
   height: 100vh;
   display: flex;
-  /* flex-direction:column; */
   justify-content: center;
   align-items: center;
 }
@@ -17,7 +16,6 @@ body {
   background-color: #1a1b21;
   border-radius: 5px;
   overflow: hidden;
-  /* border:2px solid red; */
   max-width: 250px;
   display: flex;
   flex-direction: column;
@@ -28,8 +26,6 @@ body {
 .img-container {
   margin: auto;
   width: 100%;
-  /* border:2px solid black; */
-  /* margin:auto; */
 }
 .profile-photo {
   width: 100%;
@@ -38,23 +34,18 @@ body {
 .name {
   margin-top: 5px;
   text-align: center;
-  /* border:2px solid blue; */
   font-size: 1.1rem;
 }
 .profession {
   color: #f3bf99;
   text-align: center;
-  /* border:2px solid green; */
   font-size: 0.7rem;
   margin-top: 5px;
 }
 .contact-container {
-  /* width: 90%; */
   border-radius: 3px;
-  /* margin:auto; */
   margin: 10px;
   padding: 5px;
-  /* border:2px solid cyan; */
   background-color: aliceblue;
   color: black;
   display: flex;
@@ -62,8 +53,6 @@ body {
   justify-content: center;
 }
 .social-logo {
-  /* border:2px solid black; */
-  /* margin:auto; */
   width: 20px;
   display: flex;
   justify-content: center;
@@ -83,7 +72,6 @@ body {
 /* ABOUT SECTION */
 .about-section,
 .interest-section {
-  /* border:2px solid orange; */
   padding: 10px;
   padding-bottom: 0px;
 }
@@ -103,15 +91,12 @@ body {
   margin-top: 20px;
   width: 100%;
   padding: 5px;
-  /* border:2px solid cyan; */
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
   align-items: center;
   background-color: #23252c;
-  /* background-color:white; */
 }
 .footer-social {
   width: 25px;
-  /* background-color:white; */
 }
